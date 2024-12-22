@@ -2,9 +2,9 @@
 The GenAI Image-to-Speech Tool is a streamlit web app that transforms images into speech through a multi-step AI-powered process. The tool utilizes a combination of Hugging Face models and OpenAI's GPT to convert images to descriptive text, generate short stories from the text, and then synthesize the story into speech. 
 
 ## Features
-1. Image-to-Text Conversion: Utilizes Hugging Face's BLIP model to convert uploaded images into descriptive text.
-2. Text-to-Story Generation: Transforms the descriptive text into a short story using OpenAI's GPT-3.5 model.
-3. Text-to-Speech: Converts the generated short story into speech using Hugging Face's ESPnet text-to-speech model, and provides the generated audio as a .flac file.
+1. Image-to-Text Conversion: Utilizes **Hugging Face's BLIP model** to convert uploaded images into descriptive text.
+2. Text-to-Story Generation: Transforms the descriptive text into a short story using **OpenAI's GPT-3.5 model**.
+3. Text-to-Speech: Converts the generated short story into speech using **Hugging Face's ESPnet text-to-speech model**, and provides the generated audio as a .flac file.
 
 ## How It Works
 1. Upload Image: Users upload an image (JPG format).
@@ -16,8 +16,8 @@ The GenAI Image-to-Speech Tool is a streamlit web app that transforms images int
 ![GenAI Tool Demo](assets/workflow.jpeg)
 
 ## Requirements
-Python 3.7+
-Streamlit
-Hugging Face API Token
-OpenAI API Key
-Transformers library
+1. Python 3.7+
+2. Streamlit
+3. Hugging Face API Token
+4. OpenAI API Key
+5. Transformers library
